@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import './normalize.css';
 import style from './App.css';
+import PuppyForm from './PuppyForm.jsx';
+import PupppyList from './PupppyList.jsx';
 
 // create a React Component called _App_
 class App extends Component {
@@ -13,10 +15,10 @@ class App extends Component {
           <h1>Welcome to PERN Template</h1>
         </header>
         <div id={style['description-body']}>
-          <p>
-            Welcome to PERN Template. This is a temporary Hello World component 
-            that may be replaced with the rest of your React client application
-          </p>
+      <main>
+       <PuppyForm />
+       <PupppyList />
+      </main>
         </div>
       </div>
     );
