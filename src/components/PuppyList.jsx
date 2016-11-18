@@ -10,6 +10,7 @@ class PuppyList extends Component {
     return this.props.puppies.map((pup, i) =>
       <PuppyItems
         handleAbandonment={this.props.handleAbandonment}
+        handleLikePuppy={this.props.handleLikePuppy}
         likes={pup.likes}
         name={pup.name}
         url={pup.url}

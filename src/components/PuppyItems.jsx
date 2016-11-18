@@ -13,7 +13,7 @@ class PuppyItems extends Component {
           <img src={this.props.url} alt={this.props.id}/>
         </div>
         <p>Likes: {this.props.likes}</p>
-        <button onClick={() => this.props.handleLike(this.props.id)}>Like!</button>
+        <button onClick={() => this.props.handleLikePuppy(this.props.id)}>Like!</button>
         <button onClick={() => this.props.handleAbandonment(this.props.id)}
           >Abandon</button>
       </div>

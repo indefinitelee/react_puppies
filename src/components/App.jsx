@@ -84,6 +84,7 @@ class App extends Component {
           getAllPuppies={this.getAllPuppies.bind(this)}
           puppies={this.state.puppies}
           handleAbandonment={this.handleAbandonment.bind(this)}
+          handleLikePuppy={this.handleLikePuppy.bind(this)}
         />
       </div>
     );
